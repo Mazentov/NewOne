@@ -1,0 +1,37 @@
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: slateblue;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+    margin-top: 0cm;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover{
+    transform: scale(.5);
+    color: brown;
+}
+/*
+.iphone {
+    display: block;
+    border-left: 5px solid red; /* You can change "red" to your desired border color *}
+  
+  /*
+  .samsung {
+    display: none;
+  }*/
+  
+  .paragraph{color: crimson;
+display:none ;}
+
+.visible {
+    display: block;
+  }
